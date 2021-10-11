@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kezdolap.css">
+    <link rel="shortcut icon" href="fav.jpg" type="image/x-icon">
+    <script src="lennel.js"></script>
+    <title>Miért kezd el a Narutot?</title>
+</head>
+<body class="lennel">
+    <ul>
+        <li><a href="index.html">Kezdőlap</a></li>
+        <li><a href="miert.html">Miért éri meg elkezdni?</a></li>
+        <li><a href="tart.html">Rövid tartalom</a></li>
+        <li class="lap"><a href="ki_lennel.html">Főbb szereplők</a></li>
+    </ul>
+    <form>
+      <fieldset>
+        <legend><h1>Melyik szereplő lennél a 7-es csapatből?</h1></legend>
+        <p></p>
+        <form>
+          <label>Inkább társaság kedvelő vagy vagy jobban szereted a magányt?</label>
+          <select id="tarsasag">
+            <option value="">>---válasz---<</option>
+            <option value="1">Igen, keresem az emberek társaságát.</option>
+            <option value="2">Igen, jobban szeretek egyedül lenni.</option>
+            <option value="3">Jobban szeretek egy társasággal lenni, de egyedül is jól érzem magam.</option>
+            <option value="4">Jobban szeretek egyedül lenni, de társaságban is jól érzem magam.</option>
+          </select>
+        </form>
+        <p></p>
+        <form>
+          <label>Könnyen megtalálod az emberekkel a közös hangot?</label>
+          <select  id="szemelyiseg">
+            <option value="">>---válasz---<</option>
+            <option value="1">Igen.</option>
+            <option value="2">Nem.</option>
+            <option value="3">Hangulatomtól függ.</option>
+          </select>
+        </form>
+      <p></p>
+      <form>
+        <label>Kedvenc szín?</label>
+        <select  id="szin">
+          <option value="">>---válasz---<</option>
+          <option value="1">Kék</option>
+          <option value="2">Lila</option>
+          <option value="3">Narancssárga</option>
+          <option value="4">Rózsaszín</option>
+        </select>
+      </form>
+      <p></p>
+      <form >
+        <label>Melyik állatot választanád?</label>
+        <select id="allat">
+          <option value="">>---válasz---<</option>
+          <option value="1">Kutya</option>
+          <option value="2">Kígyó</option>
+          <option value="3">Róka</option>
+          <option value="4">Csiga</option>
+        </select>
+      </form>
+      <p></p>
+      <form >
+        <label>Mennyire vagy kitartó?</label>
+        <select id="kitarto">
+          <option value="">>---válasz---<</option>
+          <option value="1">Kitartó vagyok, de néha kicsit elbizonytalanodom.</option>
+          <option value="2">Sose adnám fel az állmaimat.</option>
+          <option value="3">Bármit megteszek, hogy ne maradjak le a csapattársaimtól.</option>
+        </select>
+      </form>
+      <p></p>
+      <button onclick="mehet()">Mehet!</button>
+      <table>
+        <tr>
+          <td><img src="usasuke.jpg" alt=""></td>
+          <td><img src="hkakashi.png" alt=""></td>
+        </tr>
+        <tr>
+          <td> <img src="unaruto.jpg" alt=""></td>
+          <td> <img src="hsakura.png" alt=""></td>
+        </tr>
+      </table>
+      </fieldset>
+    </form>
+</body>
+</html>

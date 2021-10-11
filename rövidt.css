@@ -1,0 +1,84 @@
+body,html{
+    height:100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato" sans-serif;
+    color: #777;
+}
+.kep1, .kep2, .kep3{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kep1{
+    background-image: url('naruto.png');
+    min-height: 100%;
+    background-size: cover;
+}
+.kep2{
+    background-image: url('sasuke.png');
+    min-height: 400px;
+    background-size: cover;
+}
+.kep3{
+    background-image: url('sakura.png');
+    min-height: 100%;
+    background-size: cover;
+}
+#elso{
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+.felirat{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.felirat .keret{
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+} 
+h3{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #111;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+li a:hover{
+    color: orange;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.lap{
+    background-color: maroon;
+}
